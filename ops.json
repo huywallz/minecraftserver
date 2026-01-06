@@ -1,0 +1,20 @@
+[
+  {
+    "uuid": "91856cbb-a87b-3863-92b3-19ce07b31939",
+    "name": "phat",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "c643971b-8745-3a2c-bf0f-cb89ef5e814e",
+    "name": "huywall",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "4c331b04-9594-378a-9c71-aa08b1cd83b9",
+    "name": "Glongg",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

@@ -1,0 +1,5 @@
+git config user.name huywallz
+git config user.email huywall69@gmail.com
+git add --all
+git commit -m "initial"
+git push origin main

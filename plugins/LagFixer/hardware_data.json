@@ -1,0 +1,13 @@
+{
+  "cpuName": "Intel(R) Core(TM) i5-2520M CPU @ 2.50GHz",
+  "cpuMicroarchitecture": "Sandy Bridge (Client)",
+  "cpuVendorFreq": 2500000000,
+  "logicalCores": 4,
+  "physicalCores": 2,
+  "totalMemory": 12307746816,
+  "pageSize": 4096,
+  "memoryType": "Unknown",
+  "diskCount": 2,
+  "partitionCount": 1,
+  "networkInterfaceCount": 2
+}
