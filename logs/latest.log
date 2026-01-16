@@ -1,191 +1,167 @@
-[14:36:47] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-Ubuntu-124.04; Ubuntu null) on Linux 6.8.0-90-generic (amd64)
-[14:36:47] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-72-main@cd445fd (2025-12-31T17:02:56Z) for Minecraft 1.21.11
-[14:36:48] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[14:36:49] [ServerMain/INFO]: [PluginInitializerManager] Initialized 13 plugins
-[14:36:49] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (13):
- - AutoTreeChop (1.7.1), BetterReload (1.4.0), Chunky (1.4.40), CleanPing (1.7.1), Geyser-Spigot (2.9.1-SNAPSHOT), LetMeDespawn (1.19.2-1.0-bukkit-paper), LuckPerms (5.5.17), PlaceholderAPI (2.11.7), ViaBackwards (5.7.0), ViaVersion (5.7.0), floodgate (2.2.5-SNAPSHOT (b121-55a85ec)), packetevents (2.11.1), voicechat (2.6.7)
-[14:37:08] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[14:37:14] [ServerMain/INFO]: Loaded 1470 recipes
-[14:37:14] [ServerMain/INFO]: Loaded 1584 advancements
-[14:37:14] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[14:37:15] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 1,146.1ms
-[14:37:15] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[14:37:15] [Server thread/INFO]: Loading properties
-[14:37:15] [Server thread/INFO]: This server is running Paper version 1.21.11-72-main@cd445fd (2025-12-31T17:02:56Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[14:37:15] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[14:37:15] [Server thread/INFO]: Using 4 threads for Netty based IO
-[14:37:15] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[14:37:18] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[14:37:19] [Server thread/INFO]: Default game type: SURVIVAL
-[14:37:19] [Server thread/INFO]: Generating keypair
-[14:37:19] [Server thread/INFO]: Starting Minecraft server on *:25565
-[14:37:19] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[14:37:19] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[14:37:21] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.5-SNAPSHOT (b121-55a85ec)
-[14:37:23] [Server thread/INFO]: [floodgate] Took 2,110ms to boot Floodgate
-[14:37:23] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.7.0
-[14:37:23] [Server thread/INFO]: [ViaVersion] ViaVersion 5.7.0 is now loaded. Registering protocol transformers and injecting...
-[14:37:24] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading block connection mappings ...
-[14:37:24] [Via-Mappingloader-1/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[14:37:25] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[14:37:25] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[14:37:27] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.7
-[14:37:27] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.9.1-SNAPSHOT
-[14:37:27] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[14:37:27] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[14:37:27] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.7.0
-[14:37:27] [Server thread/INFO]: [LetMeDespawn] Loading server plugin LetMeDespawn v1.19.2-1.0-bukkit-paper
-[14:37:27] [Server thread/INFO]: [BetterReload] Loading server plugin BetterReload v1.4.0
-[14:37:27] [Server thread/INFO]: [CleanPing] Loading server plugin CleanPing v1.7.1
-[14:37:27] [Server thread/INFO]: [AutoTreeChop] Loading server plugin AutoTreeChop v1.7.1
-[14:37:27] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.40
-[14:37:27] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.6.7
-[14:37:27] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.17
-[14:37:28] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[14:37:28] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
-[14:37:31] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[14:37:31] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.17
-[14:37:32] [Server thread/INFO]:         __    
-[14:37:32] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.17
-[14:37:32] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[14:37:32] [Server thread/INFO]: 
-[14:37:32] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[14:37:33] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[14:37:33] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[14:37:34] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2948ms)
-[14:37:34] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[14:37:34] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[14:37:34] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[14:37:34] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[14:37:34] [Server thread/INFO]: Preparing level "world"
-[14:37:34] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
-[14:37:34] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 1 NUMA nodes.
-[14:37:35] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
-[14:37:35] [Server thread/INFO]: Preparing spawn area: 100%
-[14:37:35] [Server thread/INFO]: Prepared spawn area in 3 ms
-[14:37:35] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[14:37:35] [Server thread/INFO]: Prepared spawn area in 6 ms
-[14:37:35] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[14:37:35] [Server thread/INFO]: Prepared spawn area in 3 ms
-[14:37:35] [Server thread/INFO]: Done preparing level "world" (1.723s)
-[14:37:35] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.5-SNAPSHOT (b121-55a85ec)
-[14:37:37] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.7.0
-[14:37:37] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.11 (774)
-[14:37:37] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.7
-[14:37:37] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[14:37:37] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.9.1-SNAPSHOT
-[14:37:40] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.7.0
-[14:37:40] [Server thread/INFO]: [LetMeDespawn] Enabling LetMeDespawn v1.19.2-1.0-bukkit-paper
-[14:37:40] [Server thread/INFO]: Let Me Despawn Loaded.
-[14:37:40] [Server thread/INFO]: [BetterReload] Enabling BetterReload v1.4.0
-[14:37:40] [Server thread/INFO]: [CleanPing] Enabling CleanPing v1.7.1
-[14:37:40] [Server thread/INFO]: [CleanPing] 
+[06:38:24] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-Ubuntu-124.04; Ubuntu null) on Linux 6.8.0-90-generic (amd64)
+[06:38:24] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-72-main@cd445fd (2025-12-31T17:02:56Z) for Minecraft 1.21.11
+[06:38:24] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[06:38:26] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
+[06:38:26] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (10):
+ - AutoTreeChop (1.7.1), BetterReload (1.4.0), Chunky (1.4.40), CleanPing (1.7.1), LuckPerms (5.5.17), PlaceholderAPI (2.11.7), ViaBackwards (5.7.0), ViaVersion (5.7.0), packetevents (2.11.1), voicechat (2.6.7)
+[06:38:35] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[06:38:39] [ServerMain/INFO]: Loaded 1470 recipes
+[06:38:39] [ServerMain/INFO]: Loaded 1584 advancements
+[06:38:39] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[06:38:40] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 809.4ms
+[06:38:40] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[06:38:40] [Server thread/INFO]: Loading properties
+[06:38:40] [Server thread/INFO]: This server is running Paper version 1.21.11-72-main@cd445fd (2025-12-31T17:02:56Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[06:38:40] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[06:38:40] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[06:38:40] [Server thread/INFO]: Using 4 threads for Netty based IO
+[06:38:42] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[06:38:42] [Server thread/INFO]: Default game type: SURVIVAL
+[06:38:42] [Server thread/INFO]: Generating keypair
+[06:38:43] [Server thread/INFO]: Starting Minecraft server on *:25565
+[06:38:43] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[06:38:43] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[06:38:44] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.7.0
+[06:38:44] [Server thread/INFO]: [ViaVersion] ViaVersion 5.7.0 is now loaded. Registering protocol transformers and injecting...
+[06:38:45] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading block connection mappings ...
+[06:38:46] [Via-Mappingloader-1/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[06:38:47] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[06:38:47] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[06:38:48] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.7
+[06:38:48] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.7.0
+[06:38:48] [Server thread/INFO]: [BetterReload] Loading server plugin BetterReload v1.4.0
+[06:38:48] [Server thread/INFO]: [CleanPing] Loading server plugin CleanPing v1.7.1
+[06:38:48] [Server thread/INFO]: [AutoTreeChop] Loading server plugin AutoTreeChop v1.7.1
+[06:38:48] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.40
+[06:38:48] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.6.7
+[06:38:48] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.17
+[06:38:48] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[06:38:48] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
+[06:38:50] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[06:38:50] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.17
+[06:38:51] [Server thread/INFO]:         __    
+[06:38:51] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.17
+[06:38:51] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[06:38:51] [Server thread/INFO]: 
+[06:38:52] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[06:38:52] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[06:38:52] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[06:38:53] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2150ms)
+[06:38:53] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[06:38:53] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[06:38:53] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[06:38:53] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[06:38:53] [Server thread/INFO]: Preparing level "world"
+[06:38:53] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
+[06:38:53] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 1 NUMA nodes.
+[06:38:54] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[06:38:54] [Server thread/INFO]: Preparing spawn area: 100%
+[06:38:54] [Server thread/INFO]: Prepared spawn area in 4 ms
+[06:38:54] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[06:38:54] [Server thread/INFO]: Prepared spawn area in 4 ms
+[06:38:54] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[06:38:54] [Server thread/INFO]: Prepared spawn area in 3 ms
+[06:38:54] [Server thread/INFO]: Done preparing level "world" (1.423s)
+[06:38:54] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.7.0
+[06:38:54] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.11 (774)
+[06:38:54] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.7
+[06:38:55] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[06:38:55] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.7.0
+[06:38:55] [Server thread/INFO]: [BetterReload] Enabling BetterReload v1.4.0
+[06:38:55] [Server thread/INFO]: [CleanPing] Enabling CleanPing v1.7.1
+[06:38:55] [Server thread/INFO]: [CleanPing] 
    ___ _                 ___ _           
   / __| |___ __ _ _ _   | _ (_)_ _  __ _ 
  | (__| / -_) _` | ' \  |  _/ | ' \/ _` |
   \___|_\___\__,_|_||_| |_| |_|_||_\__, |
                                    |___/ 
 
-[14:37:40] [Server thread/INFO]: [CleanPing] Server version: 1.21.11-R0.1-SNAPSHOT
-[14:37:40] [Server thread/INFO]: [CleanPing] Loading configuration...
-[14:37:40] [Server thread/INFO]: [CleanPing] Loading commands...
-[14:37:40] [Server thread/INFO]: [CleanPing] Metrics loaded successfully!
-[14:37:40] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: cleanping [1.0]
-[14:37:40] [Server thread/INFO]: [CleanPing] PlaceholderAPI found, placeholders enabled.
-[14:37:40] [Server thread/INFO]: [CleanPing] Plugin successfully loaded!
-[14:37:40] [Server thread/INFO]: [AutoTreeChop] Enabling AutoTreeChop v1.7.1
-[14:37:41] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: autotreechop [1.7.1]
-[14:37:41] [Server thread/INFO]: [AutoTreeChop] PlaceholderAPI expansion for AutoTreeChop has been registered.
-[14:37:41] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-1 - Starting...
-[14:37:41] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.pool.HikariPool] HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@6c0530f2
-[14:37:41] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-1 - Start completed.
-[14:37:42] [Server thread/INFO]: [AutoTreeChop] AutoTreeChop enabled!
-[14:37:42] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.40
-[14:37:42] [Server thread/INFO]: [voicechat] Enabling voicechat v2.6.7
-[14:37:42] [Server thread/INFO]: [voicechat] Initializing compatibility for version 1.21.11-R0.1
-[14:37:42] [Server thread/INFO]: [voicechat] Compatibility version 20
-[14:37:42] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
-[14:37:42] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: voicechat [2.6.7]
-[14:37:42] [Server thread/INFO]: [voicechat] Successfully registered PlaceholderAPI expansion
-[14:37:42] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
-[14:37:42] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
-[14:37:42] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
-[14:37:43] [Server thread/INFO]: [spark] Starting background profiler...
-[14:37:43] [packetevents-update-check-thread/INFO]: [packetevents] You are running the latest release of PacketEvents. Your build: (2.11.1)
-[14:37:43] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[14:37:43] [Server thread/INFO]: 0 placeholder hook(s) registered!
-[14:37:44] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[14:37:44] [Server thread/INFO]: [Geyser-Spigot] 
-[14:37:44] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.9.1-b999 (git-master-dbed595)
-[14:37:44] [Server thread/INFO]: [Geyser-Spigot] 
-[14:37:44] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[14:37:52] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[14:37:52] [Server thread/INFO]: [Geyser-Spigot] Done (8.758s)! Run /geyser help for help!
-[14:37:53] [ForkJoinPool.commonPool-worker-2/INFO]: [Geyser-Spigot] There's a new Geyser update available to support Bedrock version 1.21.131. Download it here: https://geysermc.org/download
-[14:37:53] [Server thread/INFO]: Running delayed init tasks
-[14:37:53] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[14:37:53] [Server thread/INFO]: Done (67.025s)! For help, type "help"
-[14:37:53] [Server thread/INFO]: [voicechat] Loading plugins
-[14:37:53] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
-[14:37:53] [Server thread/INFO]: [voicechat] Initializing plugins
-[14:37:53] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
-[14:37:53] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[14:37:53] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
-[20:22:02] [Server thread/INFO]: Stopping server
-[20:22:02] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
-[20:22:02] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.17
-[20:22:02] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[20:22:03] [Server thread/INFO]: [LuckPerms] Closing storage...
-[20:22:03] [Server thread/INFO]: [LuckPerms] Goodbye!
-[20:22:03] [Server thread/INFO]: [voicechat] Disabling voicechat v2.6.7
-[20:22:03] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.40
-[20:22:03] [Server thread/INFO]: [AutoTreeChop] Disabling AutoTreeChop v1.7.1
-[20:22:03] [Server thread/INFO]: [AutoTreeChop] Saving all player data before shutdown...
-[20:22:03] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
-[20:22:03] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
-[20:22:03] [Server thread/INFO]: [AutoTreeChop] AutoTreeChop disabled!
-[20:22:03] [Server thread/INFO]: [CleanPing] Disabling CleanPing v1.7.1
-[20:22:03] [Server thread/INFO]: [CleanPing] Clearing instances...
-[20:22:03] [Server thread/INFO]: [CleanPing] Plugin successfully disabled!
-[20:22:03] [Server thread/INFO]: [BetterReload] Disabling BetterReload v1.4.0
-[20:22:03] [Server thread/INFO]: [LetMeDespawn] Disabling LetMeDespawn v1.19.2-1.0-bukkit-paper
-[20:22:03] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.7.0
-[20:22:03] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.9.1-SNAPSHOT
-[20:22:03] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[20:22:03] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[20:22:03] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.7
-[20:22:03] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.7.0
-[20:22:03] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[20:22:03] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.5-SNAPSHOT (b121-55a85ec)
-[20:22:03] [Server thread/INFO]: Saving players
-[20:22:03] [Server thread/INFO]: Saving worlds
-[20:22:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[20:22:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[20:22:03] [WebSocketConnectReadThread-117/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[20:22:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[20:22:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[20:22:03] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.01s
-[20:22:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[20:22:03] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[20:22:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[20:22:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[20:22:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[20:22:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[20:22:03] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[20:22:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[20:22:03] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[20:22:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[20:22:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[20:22:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[20:22:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[20:22:03] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[20:22:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[20:22:03] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[20:22:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:22:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:22:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:22:03] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[20:22:03] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[20:22:03] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[20:22:03] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[20:22:03] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[06:38:55] [Server thread/INFO]: [CleanPing] Server version: 1.21.11-R0.1-SNAPSHOT
+[06:38:55] [Server thread/INFO]: [CleanPing] Loading configuration...
+[06:38:55] [Server thread/INFO]: [CleanPing] Loading commands...
+[06:38:55] [Server thread/INFO]: [CleanPing] Metrics loaded successfully!
+[06:38:55] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: cleanping [1.0]
+[06:38:55] [Server thread/INFO]: [CleanPing] PlaceholderAPI found, placeholders enabled.
+[06:38:55] [Server thread/INFO]: [CleanPing] Plugin successfully loaded!
+[06:38:55] [Server thread/INFO]: [AutoTreeChop] Enabling AutoTreeChop v1.7.1
+[06:38:56] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: autotreechop [1.7.1]
+[06:38:56] [Server thread/INFO]: [AutoTreeChop] PlaceholderAPI expansion for AutoTreeChop has been registered.
+[06:38:56] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-1 - Starting...
+[06:38:56] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.pool.HikariPool] HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@6d2e7945
+[06:38:56] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[06:38:56] [Server thread/INFO]: [AutoTreeChop] AutoTreeChop enabled!
+[06:38:56] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.40
+[06:38:56] [Server thread/INFO]: [voicechat] Enabling voicechat v2.6.7
+[06:38:57] [Server thread/INFO]: [voicechat] Initializing compatibility for version 1.21.11-R0.1
+[06:38:57] [Server thread/INFO]: [voicechat] Compatibility version 20
+[06:38:57] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[06:38:57] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: voicechat [2.6.7]
+[06:38:57] [Server thread/INFO]: [voicechat] Successfully registered PlaceholderAPI expansion
+[06:38:57] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
+[06:38:57] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
+[06:38:57] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
+[06:38:57] [packetevents-update-check-thread/INFO]: [packetevents] You are running the latest release of PacketEvents. Your build: (2.11.1)
+[06:38:57] [Server thread/INFO]: [spark] Starting background profiler...
+[06:38:57] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[06:38:57] [Server thread/INFO]: Running delayed init tasks
+[06:38:57] [Server thread/INFO]: Done (34.658s)! For help, type "help"
+[06:38:57] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[06:38:57] [Server thread/INFO]: [voicechat] Loading plugins
+[06:38:57] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[06:38:57] [Server thread/INFO]: [voicechat] Initializing plugins
+[06:38:57] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[06:38:57] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[06:38:57] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[06:38:57] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[06:42:18] [Server thread/INFO]: Stopping server
+[06:42:18] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
+[06:42:18] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.17
+[06:42:18] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[06:42:18] [Server thread/INFO]: [LuckPerms] Closing storage...
+[06:42:18] [Server thread/INFO]: [LuckPerms] Goodbye!
+[06:42:18] [Server thread/INFO]: [voicechat] Disabling voicechat v2.6.7
+[06:42:18] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.40
+[06:42:18] [Server thread/INFO]: [AutoTreeChop] Disabling AutoTreeChop v1.7.1
+[06:42:18] [Server thread/INFO]: [AutoTreeChop] Saving all player data before shutdown...
+[06:42:18] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[06:42:18] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[06:42:18] [Server thread/INFO]: [AutoTreeChop] AutoTreeChop disabled!
+[06:42:18] [Server thread/INFO]: [CleanPing] Disabling CleanPing v1.7.1
+[06:42:18] [Server thread/INFO]: [CleanPing] Clearing instances...
+[06:42:18] [Server thread/INFO]: [CleanPing] Plugin successfully disabled!
+[06:42:18] [Server thread/INFO]: [BetterReload] Disabling BetterReload v1.4.0
+[06:42:18] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.7.0
+[06:42:18] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.7
+[06:42:18] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.7.0
+[06:42:18] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[06:42:18] [Server thread/INFO]: Saving players
+[06:42:18] [Server thread/INFO]: Saving worlds
+[06:42:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[06:42:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[06:42:19] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[06:42:19] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[06:42:19] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.00s
+[06:42:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[06:42:19] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[06:42:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[06:42:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[06:42:19] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[06:42:19] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[06:42:19] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[06:42:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[06:42:19] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[06:42:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[06:42:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[06:42:19] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[06:42:19] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[06:42:19] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[06:42:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[06:42:19] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[06:42:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06:42:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06:42:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06:42:19] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[06:42:19] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[06:42:19] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[06:42:19] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[06:42:19] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
