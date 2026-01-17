@@ -1,167 +1,305 @@
-[06:38:24] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-Ubuntu-124.04; Ubuntu null) on Linux 6.8.0-90-generic (amd64)
-[06:38:24] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-72-main@cd445fd (2025-12-31T17:02:56Z) for Minecraft 1.21.11
-[06:38:24] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[06:38:26] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
-[06:38:26] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (10):
+[09:22:08] [ServerMain/INFO]: [bootstrap] Running Java 25 (Java HotSpot(TM) 64-Bit Server VM 25.0.1+8-LTS-27; Oracle Corporation null) on Windows 10 10.0 (amd64)
+[09:22:08] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-72-main@cd445fd (2025-12-31T17:02:56Z) for Minecraft 1.21.11
+[09:22:09] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[09:22:09] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
+[09:22:09] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (10):
  - AutoTreeChop (1.7.1), BetterReload (1.4.0), Chunky (1.4.40), CleanPing (1.7.1), LuckPerms (5.5.17), PlaceholderAPI (2.11.7), ViaBackwards (5.7.0), ViaVersion (5.7.0), packetevents (2.11.1), voicechat (2.6.7)
-[06:38:35] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[06:38:39] [ServerMain/INFO]: Loaded 1470 recipes
-[06:38:39] [ServerMain/INFO]: Loaded 1584 advancements
-[06:38:39] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[06:38:40] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 809.4ms
-[06:38:40] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[06:38:40] [Server thread/INFO]: Loading properties
-[06:38:40] [Server thread/INFO]: This server is running Paper version 1.21.11-72-main@cd445fd (2025-12-31T17:02:56Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[06:38:40] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[06:38:40] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[06:38:40] [Server thread/INFO]: Using 4 threads for Netty based IO
-[06:38:42] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[06:38:42] [Server thread/INFO]: Default game type: SURVIVAL
-[06:38:42] [Server thread/INFO]: Generating keypair
-[06:38:43] [Server thread/INFO]: Starting Minecraft server on *:25565
-[06:38:43] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[06:38:43] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[06:38:44] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.7.0
-[06:38:44] [Server thread/INFO]: [ViaVersion] ViaVersion 5.7.0 is now loaded. Registering protocol transformers and injecting...
-[06:38:45] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading block connection mappings ...
-[06:38:46] [Via-Mappingloader-1/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[06:38:47] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[06:38:47] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[06:38:48] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.7
-[06:38:48] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.7.0
-[06:38:48] [Server thread/INFO]: [BetterReload] Loading server plugin BetterReload v1.4.0
-[06:38:48] [Server thread/INFO]: [CleanPing] Loading server plugin CleanPing v1.7.1
-[06:38:48] [Server thread/INFO]: [AutoTreeChop] Loading server plugin AutoTreeChop v1.7.1
-[06:38:48] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.40
-[06:38:48] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.6.7
-[06:38:48] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.17
-[06:38:48] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[06:38:48] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
-[06:38:50] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[06:38:50] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.17
-[06:38:51] [Server thread/INFO]:         __    
-[06:38:51] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.17
-[06:38:51] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[06:38:51] [Server thread/INFO]: 
-[06:38:52] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[06:38:52] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[06:38:52] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[06:38:53] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2150ms)
-[06:38:53] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[06:38:53] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[06:38:53] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[06:38:53] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[06:38:53] [Server thread/INFO]: Preparing level "world"
-[06:38:53] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
-[06:38:53] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 1 NUMA nodes.
-[06:38:54] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
-[06:38:54] [Server thread/INFO]: Preparing spawn area: 100%
-[06:38:54] [Server thread/INFO]: Prepared spawn area in 4 ms
-[06:38:54] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[06:38:54] [Server thread/INFO]: Prepared spawn area in 4 ms
-[06:38:54] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[06:38:54] [Server thread/INFO]: Prepared spawn area in 3 ms
-[06:38:54] [Server thread/INFO]: Done preparing level "world" (1.423s)
-[06:38:54] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.7.0
-[06:38:54] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.11 (774)
-[06:38:54] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.7
-[06:38:55] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[06:38:55] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.7.0
-[06:38:55] [Server thread/INFO]: [BetterReload] Enabling BetterReload v1.4.0
-[06:38:55] [Server thread/INFO]: [CleanPing] Enabling CleanPing v1.7.1
-[06:38:55] [Server thread/INFO]: [CleanPing] 
+[09:22:12] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[09:22:13] [ServerMain/INFO]: Loaded 1470 recipes
+[09:22:13] [ServerMain/INFO]: Loaded 1584 advancements
+[09:22:13] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[09:22:14] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 216.9ms
+[09:22:14] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[09:22:14] [Server thread/WARN]: ****************************
+[09:22:14] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[09:22:14] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[09:22:14] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[09:22:14] [Server thread/WARN]: ****************************
+[09:22:14] [Server thread/INFO]: Loading properties
+[09:22:14] [Server thread/INFO]: This server is running Paper version 1.21.11-72-main@cd445fd (2025-12-31T17:02:56Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[09:22:14] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[09:22:14] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[09:22:14] [Server thread/INFO]: Using 4 threads for Netty based IO
+[09:22:15] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[09:22:15] [Server thread/INFO]: Default game type: SURVIVAL
+[09:22:15] [Server thread/INFO]: Generating keypair
+[09:22:15] [Server thread/INFO]: Starting Minecraft server on *:25565
+[09:22:15] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[09:22:15] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[09:22:16] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.7.0
+[09:22:16] [Server thread/INFO]: [ViaVersion] ViaVersion 5.7.0 is now loaded. Registering protocol transformers and injecting...
+[09:22:16] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading block connection mappings ...
+[09:22:16] [Via-Mappingloader-1/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[09:22:17] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[09:22:17] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[09:22:17] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.7
+[09:22:17] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.7.0
+[09:22:17] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.6.7
+[09:22:17] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
+[09:22:18] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.17
+[09:22:18] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[09:22:18] [Server thread/INFO]: [CleanPing] Loading server plugin CleanPing v1.7.1
+[09:22:18] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.40
+[09:22:18] [Server thread/INFO]: [BetterReload] Loading server plugin BetterReload v1.4.0
+[09:22:18] [Server thread/INFO]: [AutoTreeChop] Loading server plugin AutoTreeChop v1.7.1
+[09:22:18] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[09:22:18] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.17
+[09:22:18] [Server thread/INFO]:         __    
+[09:22:18] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.17
+[09:22:18] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[09:22:18] [Server thread/INFO]: 
+[09:22:18] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[09:22:18] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[09:22:19] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[09:22:19] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 687ms)
+[09:22:19] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[09:22:19] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[09:22:19] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[09:22:19] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[09:22:19] [Server thread/INFO]: Preparing level "world"
+[09:22:19] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[09:22:19] [Server thread/INFO]: Prepared spawn area in 1 ms
+[09:22:19] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[09:22:19] [Server thread/INFO]: Prepared spawn area in 2 ms
+[09:22:19] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[09:22:19] [Server thread/INFO]: Prepared spawn area in 1 ms
+[09:22:19] [Server thread/INFO]: Done preparing level "world" (0.690s)
+[09:22:19] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.7.0
+[09:22:19] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.11 (774)
+[09:22:19] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.7
+[09:22:19] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[09:22:19] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.7.0
+[09:22:19] [Server thread/INFO]: [voicechat] Enabling voicechat v2.6.7
+[09:22:20] [Server thread/INFO]: [voicechat] Initializing compatibility for version 1.21.11-R0.1
+[09:22:20] [Server thread/INFO]: [voicechat] Compatibility version 20
+[09:22:20] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[09:22:20] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: voicechat [2.6.7]
+[09:22:20] [Server thread/INFO]: [voicechat] Successfully registered PlaceholderAPI expansion
+[09:22:20] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
+[09:22:20] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
+[09:22:20] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
+[09:22:20] [Server thread/INFO]: [CleanPing] Enabling CleanPing v1.7.1
+[09:22:20] [Server thread/INFO]: [CleanPing] 
    ___ _                 ___ _           
   / __| |___ __ _ _ _   | _ (_)_ _  __ _ 
  | (__| / -_) _` | ' \  |  _/ | ' \/ _` |
   \___|_\___\__,_|_||_| |_| |_|_||_\__, |
                                    |___/ 
 
-[06:38:55] [Server thread/INFO]: [CleanPing] Server version: 1.21.11-R0.1-SNAPSHOT
-[06:38:55] [Server thread/INFO]: [CleanPing] Loading configuration...
-[06:38:55] [Server thread/INFO]: [CleanPing] Loading commands...
-[06:38:55] [Server thread/INFO]: [CleanPing] Metrics loaded successfully!
-[06:38:55] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: cleanping [1.0]
-[06:38:55] [Server thread/INFO]: [CleanPing] PlaceholderAPI found, placeholders enabled.
-[06:38:55] [Server thread/INFO]: [CleanPing] Plugin successfully loaded!
-[06:38:55] [Server thread/INFO]: [AutoTreeChop] Enabling AutoTreeChop v1.7.1
-[06:38:56] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: autotreechop [1.7.1]
-[06:38:56] [Server thread/INFO]: [AutoTreeChop] PlaceholderAPI expansion for AutoTreeChop has been registered.
-[06:38:56] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-1 - Starting...
-[06:38:56] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.pool.HikariPool] HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@6d2e7945
-[06:38:56] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-1 - Start completed.
-[06:38:56] [Server thread/INFO]: [AutoTreeChop] AutoTreeChop enabled!
-[06:38:56] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.40
-[06:38:56] [Server thread/INFO]: [voicechat] Enabling voicechat v2.6.7
-[06:38:57] [Server thread/INFO]: [voicechat] Initializing compatibility for version 1.21.11-R0.1
-[06:38:57] [Server thread/INFO]: [voicechat] Compatibility version 20
-[06:38:57] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
-[06:38:57] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: voicechat [2.6.7]
-[06:38:57] [Server thread/INFO]: [voicechat] Successfully registered PlaceholderAPI expansion
-[06:38:57] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
-[06:38:57] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
-[06:38:57] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
-[06:38:57] [packetevents-update-check-thread/INFO]: [packetevents] You are running the latest release of PacketEvents. Your build: (2.11.1)
-[06:38:57] [Server thread/INFO]: [spark] Starting background profiler...
-[06:38:57] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[06:38:57] [Server thread/INFO]: Running delayed init tasks
-[06:38:57] [Server thread/INFO]: Done (34.658s)! For help, type "help"
-[06:38:57] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[06:38:57] [Server thread/INFO]: [voicechat] Loading plugins
-[06:38:57] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
-[06:38:57] [Server thread/INFO]: [voicechat] Initializing plugins
-[06:38:57] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
-[06:38:57] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[06:38:57] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
-[06:38:57] [Server thread/INFO]: 0 placeholder hook(s) registered!
-[06:42:18] [Server thread/INFO]: Stopping server
-[06:42:18] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
-[06:42:18] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.17
-[06:42:18] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[06:42:18] [Server thread/INFO]: [LuckPerms] Closing storage...
-[06:42:18] [Server thread/INFO]: [LuckPerms] Goodbye!
-[06:42:18] [Server thread/INFO]: [voicechat] Disabling voicechat v2.6.7
-[06:42:18] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.40
-[06:42:18] [Server thread/INFO]: [AutoTreeChop] Disabling AutoTreeChop v1.7.1
-[06:42:18] [Server thread/INFO]: [AutoTreeChop] Saving all player data before shutdown...
-[06:42:18] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
-[06:42:18] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
-[06:42:18] [Server thread/INFO]: [AutoTreeChop] AutoTreeChop disabled!
-[06:42:18] [Server thread/INFO]: [CleanPing] Disabling CleanPing v1.7.1
-[06:42:18] [Server thread/INFO]: [CleanPing] Clearing instances...
-[06:42:18] [Server thread/INFO]: [CleanPing] Plugin successfully disabled!
-[06:42:18] [Server thread/INFO]: [BetterReload] Disabling BetterReload v1.4.0
-[06:42:18] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.7.0
-[06:42:18] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.7
-[06:42:18] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.7.0
-[06:42:18] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[06:42:18] [Server thread/INFO]: Saving players
-[06:42:18] [Server thread/INFO]: Saving worlds
-[06:42:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[06:42:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[06:42:19] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[06:42:19] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[06:42:19] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.00s
-[06:42:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[06:42:19] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[06:42:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[06:42:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[06:42:19] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[06:42:19] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[06:42:19] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[06:42:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[06:42:19] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[06:42:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[06:42:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[06:42:19] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[06:42:19] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[06:42:19] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[06:42:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[06:42:19] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[06:42:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[06:42:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[06:42:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[06:42:19] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[06:42:19] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[06:42:19] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[06:42:19] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[06:42:19] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[09:22:20] [Server thread/INFO]: [CleanPing] Server version: 1.21.11-R0.1-SNAPSHOT
+[09:22:20] [Server thread/INFO]: [CleanPing] Loading configuration...
+[09:22:20] [Server thread/INFO]: [CleanPing] Loading commands...
+[09:22:20] [Server thread/INFO]: [CleanPing] Metrics loaded successfully!
+[09:22:20] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: cleanping [1.0]
+[09:22:20] [Server thread/INFO]: [CleanPing] PlaceholderAPI found, placeholders enabled.
+[09:22:20] [Server thread/INFO]: [CleanPing] Plugin successfully loaded!
+[09:22:20] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.40
+[09:22:20] [Server thread/INFO]: [BetterReload] Enabling BetterReload v1.4.0
+[09:22:20] [Server thread/INFO]: [AutoTreeChop] Enabling AutoTreeChop v1.7.1
+[09:22:20] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: autotreechop [1.7.1]
+[09:22:20] [Server thread/INFO]: [AutoTreeChop] PlaceholderAPI expansion for AutoTreeChop has been registered.
+[09:22:20] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-1 - Starting...
+[09:22:20] [packetevents-update-check-thread/INFO]: [packetevents] You are running the latest release of PacketEvents. Your build: (2.11.1)
+[09:22:21] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.pool.HikariPool] HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@7be71f30
+[09:22:21] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[09:22:21] [Server thread/INFO]: [AutoTreeChop] AutoTreeChop enabled!
+[09:22:21] [Server thread/INFO]: [spark] Starting background profiler...
+[09:22:21] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
+[09:22:21] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[09:22:21] [Server thread/INFO]: Running delayed init tasks
+[09:22:21] [Server thread/INFO]: Done (13.288s)! For help, type "help"
+[09:22:21] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[09:22:21] [Server thread/INFO]: [voicechat] Loading plugins
+[09:22:21] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[09:22:21] [Server thread/INFO]: [voicechat] Initializing plugins
+[09:22:21] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[09:22:21] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[09:22:21] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[09:22:21] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[09:27:19] [User Authenticator #0/INFO]: UUID of player huywall is c643971b-8745-3a2c-bf0f-cb89ef5e814e
+[09:27:19] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms]
+[09:27:22] [Server thread/INFO]: huywall joined the game
+[09:27:22] [Server thread/INFO]: huywall[/127.70.89.172:51017] logged in with entity id 1 at ([world]586.0823481834266, 67.0, -796.039646804772)
+[09:27:39] [User Authenticator #0/INFO]: UUID of player Glongg is 4c331b04-9594-378a-9c71-aa08b1cd83b9
+[09:27:40] [Server thread/INFO]: Glongg joined the game
+[09:27:40] [Server thread/INFO]: Glongg[/127.70.89.172:51029] logged in with entity id 381 at ([world]780.4690741948261, 163.0, -724.2790070158152)
+[09:29:26] [Server thread/INFO]: Glongg issued server command: /tp huywall
+[09:29:26] [Server thread/INFO]: [Glongg: Teleported Glongg to huywall]
+[09:31:48] [Server thread/INFO]: huywall was impaled by Glongg
+[09:36:42] [Server thread/INFO]: huywall issued server command: /ping
+[09:36:52] [Server thread/INFO]: huywall issued server command: /ping
+[09:40:03] [Server thread/INFO]: Glongg issued server command: /effect give Glongg minecraft:haste infinite 5 true
+[09:40:03] [Server thread/INFO]: [Glongg: Applied effect Haste to Glongg]
+[09:47:50] [Server thread/INFO]: huywall issued server command: /tp Glongg
+[09:47:50] [Server thread/INFO]: [huywall: Teleported huywall to Glongg]
+[09:49:48] [Server thread/INFO]: huywall issued server command: /kill
+[09:49:48] [Server thread/INFO]: huywall was killed
+[09:49:48] [Server thread/INFO]: [huywall: Killed huywall]
+[10:01:09] [Server thread/INFO]: Glongg issued server command: /tp huywall
+[10:01:10] [Server thread/INFO]: [Glongg: Teleported Glongg to huywall]
+[10:01:35] [Server thread/INFO]: Glongg was doomed to fall by huywall
+[10:02:00] [Server thread/WARN]: huywall was kicked for floating too long!
+[10:02:01] [Server thread/INFO]: huywall lost connection: Flying is not enabled on this server
+[10:02:02] [Server thread/INFO]: [voicechat] Disconnecting client huywall
+[10:02:05] [spark-java-sampler-0-2/WARN]: [spark] Timed out waiting for world statistics
+[10:02:08] [Server thread/INFO]: huywall left the game
+[10:02:08] [Server thread/WARN]: Glongg moved too quickly! -0.3809010435130631,0.0,-10.200784177195828
+[10:03:45] [Server thread/WARN]: Glongg moved too quickly! 11.015318247363666,0.7967356006686828,2.8778179106993775
+[10:03:49] [Server thread/WARN]: Glongg moved too quickly! 6.628698307909076,0.6919386269954941,-7.792398674519859
+[10:08:04] [Server thread/INFO]: Glongg issued server command: /effect give Glongg minecraft:night_vision
+[10:08:04] [Server thread/INFO]: [Glongg: Applied effect Night Vision to Glongg]
+[10:08:33] [Server thread/INFO]: Glongg issued server command: /effect give Glongg minecraft:night_vision infinite 50 true
+[10:08:33] [Server thread/INFO]: [Glongg: Applied effect Night Vision to Glongg]
+[10:08:53] [Server thread/INFO]: Glongg issued server command: /effect give Glongg minecraft:haste infinite 10 true
+[10:08:53] [Server thread/INFO]: [Glongg: Applied effect Haste to Glongg]
+[10:12:34] [Server thread/INFO]: Glongg was slain by Warden
+[10:15:37] [Server thread/INFO]: Glongg issued server command: /xp add Glongg 100 levels
+[10:15:37] [Server thread/INFO]: [Glongg: Gave 100 experience levels to Glongg]
+[10:17:41] [Server thread/INFO]: [Not Secure] [Server] memaybeo sao m lại cheat exp
+[10:18:18] [Async Chat Thread - #1/INFO]: [Not Secure] <Glongg> me may beo
+[10:18:40] [Server thread/INFO]: PING » The user huywall is not online.
+[10:18:48] [User Authenticator #1/INFO]: UUID of player huywall is c643971b-8745-3a2c-bf0f-cb89ef5e814e
+[10:18:50] [Server thread/INFO]: huywall joined the game
+[10:18:50] [Server thread/INFO]: huywall[/127.70.89.172:52402] logged in with entity id 9097 at ([world]559.1101037171917, 82.06759020080621, -770.520161109616)
+[10:24:20] [Server thread/INFO]: PING » huywall's latency: 76 ms
+[10:43:59] [Server thread/INFO]: Glongg issued server command: /tp huywall
+[10:44:01] [Server thread/INFO]: [Glongg: Teleported Glongg to huywall]
+[10:44:54] [Server thread/INFO]: huywall issued server command: /kill Glongg
+[10:44:54] [Server thread/INFO]: Glongg was killed
+[10:44:54] [Server thread/INFO]: [huywall: Killed Glongg]
+[10:44:59] [Server thread/INFO]: Glongg issued server command: /tp huywall
+[10:44:59] [Server thread/INFO]: [Glongg: Teleported Glongg to huywall]
+[10:47:47] [Server thread/INFO]: huywall issued server command: /seed
+[10:51:46] [Server thread/INFO]: huywall fell from a high place
+[10:53:47] [Server thread/WARN]: huywall moved wrongly!
+[10:54:48] [Server thread/INFO]: huywall issued server command: /tp 0 ~ 0
+[10:54:48] [Server thread/INFO]: [huywall: Teleported huywall to 0.500000, 63.000000, 0.500000]
+[10:59:36] [Server thread/INFO]: huywall issued server command: /tp Glongg
+[10:59:36] [Server thread/INFO]: [huywall: Teleported huywall to Glongg]
+[11:09:18] [Server thread/INFO]: Villager Villager['Villager'/8494, uuid='a1bc59b4-5c21-4896-9d0f-85bc186ff892', l='ServerLevel[world]', x=580.45, y=63.00, z=-779.61, cpos=[36, -49], tl=60064, v=true] died, message: 'Villager was slain by huywall'
+[11:10:24] [Server thread/INFO]: huywall issued server command: /summon minecraft:villager
+[11:10:25] [Server thread/INFO]: [huywall: Summoned new Villager]
+[11:10:37] [Server thread/INFO]: huywall issued server command: /tp ~ ~10 ~
+[11:10:37] [Server thread/INFO]: [huywall: Teleported huywall to 577.700000, 73.000000, -767.700000]
+[11:13:41] [Server thread/INFO]: huywall issued server command: /summon minecraft:villager
+[11:13:41] [Server thread/INFO]: [huywall: Summoned new Villager]
+[11:14:03] [Server thread/INFO]: huywall issued server command: /summon minecraft:villager
+[11:14:03] [Server thread/INFO]: [huywall: Summoned new Villager]
+[11:16:51] [Server thread/INFO]: huywall issued server command: /give huywall minecraft:paper 64
+[11:16:51] [Server thread/INFO]: [huywall: Gave 64 [Paper] to huywall]
+[11:16:53] [Server thread/INFO]: huywall issued server command: /summon minecraft:villager
+[11:16:53] [Server thread/INFO]: [huywall: Summoned new Villager]
+[11:16:53] [Server thread/INFO]: huywall issued server command: /summon minecraft:villager
+[11:16:53] [Server thread/INFO]: [huywall: Summoned new Villager]
+[11:16:54] [Server thread/INFO]: huywall issued server command: /summon minecraft:villager
+[11:16:54] [Server thread/INFO]: [huywall: Summoned new Villager]
+[11:16:54] [Server thread/INFO]: huywall issued server command: /summon minecraft:villager
+[11:16:54] [Server thread/INFO]: [huywall: Summoned new Villager]
+[11:16:54] [Server thread/INFO]: huywall issued server command: /summon minecraft:villager
+[11:16:54] [Server thread/INFO]: [huywall: Summoned new Villager]
+[11:17:04] [Server thread/INFO]: huywall issued server command: /give huywall minecraft:paper 64
+[11:17:04] [Server thread/INFO]: [huywall: Gave 64 [Paper] to huywall]
+[11:17:05] [Server thread/INFO]: huywall issued server command: /give huywall minecraft:paper 64
+[11:17:05] [Server thread/INFO]: [huywall: Gave 64 [Paper] to huywall]
+[11:17:06] [Server thread/INFO]: huywall issued server command: /give huywall minecraft:paper 64
+[11:17:06] [Server thread/INFO]: [huywall: Gave 64 [Paper] to huywall]
+[11:17:06] [Server thread/INFO]: huywall issued server command: /give huywall minecraft:paper 64
+[11:17:06] [Server thread/INFO]: [huywall: Gave 64 [Paper] to huywall]
+[11:17:07] [Server thread/INFO]: huywall issued server command: /give huywall minecraft:paper 64
+[11:17:07] [Server thread/INFO]: [huywall: Gave 64 [Paper] to huywall]
+[11:17:07] [Server thread/INFO]: huywall issued server command: /give huywall minecraft:paper 64
+[11:17:07] [Server thread/INFO]: [huywall: Gave 64 [Paper] to huywall]
+[11:17:08] [Server thread/INFO]: huywall issued server command: /give huywall minecraft:paper 64
+[11:17:08] [Server thread/INFO]: [huywall: Gave 64 [Paper] to huywall]
+[11:17:08] [Server thread/INFO]: huywall issued server command: /give huywall minecraft:paper 64
+[11:17:08] [Server thread/INFO]: [huywall: Gave 64 [Paper] to huywall]
+[11:17:08] [Server thread/INFO]: huywall issued server command: /give huywall minecraft:paper 64
+[11:17:08] [Server thread/INFO]: [huywall: Gave 64 [Paper] to huywall]
+[11:17:09] [Server thread/INFO]: huywall issued server command: /give huywall minecraft:paper 64
+[11:17:09] [Server thread/INFO]: [huywall: Gave 64 [Paper] to huywall]
+[11:17:09] [Server thread/INFO]: huywall issued server command: /give huywall minecraft:paper 64
+[11:17:09] [Server thread/INFO]: [huywall: Gave 64 [Paper] to huywall]
+[11:17:09] [Server thread/INFO]: huywall issued server command: /give huywall minecraft:paper 64
+[11:17:09] [Server thread/INFO]: [huywall: Gave 64 [Paper] to huywall]
+[11:17:10] [Server thread/INFO]: huywall issued server command: /give huywall minecraft:paper 64
+[11:17:10] [Server thread/INFO]: [huywall: Gave 64 [Paper] to huywall]
+[11:17:10] [Server thread/INFO]: huywall issued server command: /give huywall minecraft:paper 64
+[11:17:10] [Server thread/INFO]: [huywall: Gave 64 [Paper] to huywall]
+[11:17:10] [Server thread/INFO]: huywall issued server command: /give huywall minecraft:paper 64
+[11:17:10] [Server thread/INFO]: [huywall: Gave 64 [Paper] to huywall]
+[11:19:55] [Server thread/INFO]: Glongg issued server command: /effect give Glongg minecraft:haste infinite 10 true
+[11:19:55] [Server thread/INFO]: [Glongg: Applied effect Haste to Glongg]
+[11:25:08] [Server thread/INFO]: Glongg issued server command: /tp huywall
+[11:25:08] [Server thread/INFO]: [Glongg: Teleported Glongg to huywall]
+[11:26:35] [Server thread/INFO]: Villager Villager['Toolsmith'/25838, uuid='73ec2b23-f275-42e9-ab89-4346d4b39330', l='ServerLevel[world]', x=550.18, y=63.00, z=-776.44, cpos=[34, -49], tl=11370, v=true] died, message: 'Toolsmith was slain by Zombie'
+[11:26:56] [Server thread/INFO]: Villager Villager['Cleric'/25839, uuid='58b87f71-8a3e-4f5a-8192-ab57499edd0a', l='ServerLevel[world]', x=550.28, y=63.00, z=-779.20, cpos=[34, -49], tl=11770, v=true] died, message: 'Cleric was slain by Zombie'
+[11:30:02] [Server thread/INFO]: Glongg issued server command: /tp huywall
+[11:30:03] [Server thread/INFO]: [Glongg: Teleported Glongg to huywall]
+[11:32:46] [Server thread/INFO]: huywall issued server command: /tp ~ ~10 ~
+[11:32:46] [Server thread/INFO]: [huywall: Teleported huywall to 581.700000, 69.000000, -765.697204]
+[11:36:55] [Server thread/INFO]: Glongg was killed by [Intentional Game Design]
+[11:37:24] [Server thread/INFO]: Glongg issued server command: /tp huywall
+[11:37:24] [Server thread/INFO]: [Glongg: Teleported Glongg to huywall]
+[12:01:09] [Server thread/INFO]: huywall lost connection: Disconnected
+[12:01:10] [Server thread/INFO]: [voicechat] Disconnecting client huywall
+[12:01:11] [Server thread/INFO]: huywall left the game
+[12:15:12] [Server thread/INFO]: Glongg issued server command: /effect give Glongg minecraft:haste infinite 10 true
+[12:15:13] [Server thread/INFO]: [Glongg: Applied effect Haste to Glongg]
+[12:22:00] [Server thread/INFO]: Glongg lost connection: Disconnected
+[12:22:00] [Server thread/INFO]: [voicechat] Disconnecting client Glongg
+[12:22:00] [Server thread/INFO]: Glongg left the game
+[12:38:59] [User Authenticator #2/INFO]: UUID of player huywall is c643971b-8745-3a2c-bf0f-cb89ef5e814e
+[12:39:04] [Server thread/INFO]: huywall (/127.70.89.172:55837) lost connection: Disconnected
+[12:41:12] [Server thread/INFO]: Stopping server
+[12:41:12] [Server thread/INFO]: [AutoTreeChop] Disabling AutoTreeChop v1.7.1
+[12:41:12] [Server thread/INFO]: [AutoTreeChop] Saving all player data before shutdown...
+[12:41:12] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[12:41:12] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[12:41:12] [Server thread/INFO]: [AutoTreeChop] AutoTreeChop disabled!
+[12:41:13] [Server thread/INFO]: [BetterReload] Disabling BetterReload v1.4.0
+[12:41:13] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.40
+[12:41:14] [Server thread/INFO]: [CleanPing] Disabling CleanPing v1.7.1
+[12:41:14] [Server thread/INFO]: [CleanPing] Clearing instances...
+[12:41:14] [Server thread/INFO]: [CleanPing] Plugin successfully disabled!
+[12:41:14] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.17
+[12:41:14] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[12:41:15] [Server thread/INFO]: [LuckPerms] Closing storage...
+[12:41:16] [Server thread/INFO]: [LuckPerms] Goodbye!
+[12:41:16] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
+[12:41:16] [Server thread/INFO]: [voicechat] Disabling voicechat v2.6.7
+[12:41:16] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.7.0
+[12:41:17] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.7
+[12:41:17] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.7.0
+[12:41:17] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[12:41:17] [spark-java-sampler-0-3/WARN]: [spark] Timed out waiting for world statistics
+[12:41:17] [Server thread/INFO]: Saving players
+[12:41:17] [Server thread/INFO]: Saving worlds
+[12:41:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[12:41:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[12:41:18] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[12:41:18] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[12:41:18] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.19s
+[12:41:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[12:41:18] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[12:41:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[12:41:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[12:41:19] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[12:41:19] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[12:41:19] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.02s
+[12:41:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[12:41:19] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[12:41:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[12:41:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[12:41:19] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[12:41:19] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[12:41:19] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[12:41:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[12:41:19] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[12:41:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12:41:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12:41:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12:41:19] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[12:41:19] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[12:41:19] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[12:41:19] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[12:41:19] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
